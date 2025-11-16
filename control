@@ -1,0 +1,11 @@
+Package: async-server
+Version: 1.0-1
+Section: net
+Priority: optional
+Architecture: amd64
+Depends: libc6 (>= 2.28), libstdc++6 (>= 9)
+Maintainer: Butterfly <butterfly@debian>
+Description: Asynchronous TCP/UDP Server
+ A high-performance async server handling both TCP and UDP connections
+ using epoll multiplexing. Supports commands for time, statistics and shutdown.
+
